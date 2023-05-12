@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="300dp"
+                android:layout_height="600dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="50dp"
+                android:background="#E0E0E0">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo" />
+
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="75dp"
+                    android:text="Registration for Designers"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!--The EditText for full name-->
+                <EditText
+                    android:id="@+id/etFullName"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="130dp"
+                    android:hint="Full Name"
+                    android:inputType="textPersonName" />
+
+                <!--The EditText for phone number-->
+                <EditText
+                    android:id="@+id/etPhone"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="180dp"
+                    android:hint="Phone Number"
+                    android:inputType="phone" />
+
+                <!--The EditText for email-->
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="230dp"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress" />
+
+                <!--The EditText for password-->
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="280dp"
+                    android:hint="Password"
+                    android:inputType="textPassword" />
+
+                <!--The EditText for address-->
+                <EditText
+                    android:id="@+id/etAddress"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="330dp"
+                    android:hint="Address"
+                    android:inputType="textPostalAddress" />
+
+                <!--The EditText for pecialization-->
+                <EditText
+                    android:id="@+id/etSpecialization"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="380dp"
+                    android:hint="Specialization"
+                    android:inputType="text" />
+
+                <!--The EditText for company-->
+                <EditText
+                    android:id="@+id/etCompany"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="430dp"
+                    android:hint="Company"
+                    android:inputType="text" />
+
+                <!--The EditText for brief of projects-->
+                <EditText
+                    android:id="@+id/etProjects"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="480dp"
+                    android:hint="Brief of your projects"
+                    android:inputType="textMultiLine" />
+
+                <!--The button to register in the application-->
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="530dp"
+                    android:background="@drawable/mybtn"
+                    android:text="Registration" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
