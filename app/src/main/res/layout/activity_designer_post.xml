@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="#E0E0E0">
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/profilepic"
+                />
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+                android:layout_alignParentEnd="false"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="97dp"
+                android:src="@drawable/newpic"
+                android:background="none"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="30dp"
+                android:hint="your name here:">
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="80dp"
+                android:hint="your occupation here:">
+            <EditText
+                android:layout_width="370dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="160dp"
+                android:hint="add a description about what you do and your experiences">
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="315dp"
+                android:hint="your linkedin account here:">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="320dp"
+                    android:layout_marginRight="25dp"
+                    android:text="post">
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

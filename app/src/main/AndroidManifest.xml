@@ -12,6 +12,14 @@
         android:theme="@style/Theme.MyDesigner"
         tools:targetApi="31">
         <activity
+            android:name=".requestPage"
+            android:exported="false" />
+        <activity
+            android:name=".DesignerPost"
+            android:exported="false"
+            android:label="@string/title_activity_designer_post"
+            android:theme="@style/Theme.MyDesigner.NoActionBar" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
